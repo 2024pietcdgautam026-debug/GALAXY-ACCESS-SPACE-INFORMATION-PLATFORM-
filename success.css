@@ -1,0 +1,95 @@
+/* General Layout */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0b0f15;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.page-wrapper {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    text-align: center;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Block 1: Checkmark Styling */
+.checkmark-section h1 {
+    color: #00d4ff;
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.icon-circle {
+    width: 90px;
+    height: 90px;
+    border: 3px solid #00ffcc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+    font-size: 50px;
+    color: #00ffcc;
+    box-shadow: 0 0 25px rgba(0, 255, 204, 0.3);
+}
+
+/* Block 2: The Card Styling */
+.success-card {
+    background: rgba(18, 23, 30, 0.85);
+    border: 1px solid rgba(0, 212, 255, 0.3);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.program-highlight {
+    display: block;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    text-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
+}
+
+.main-msg {
+    color: #a0aab8;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.sub-msg {
+    color: #6a7783;
+    font-size: 0.9rem;
+    margin-bottom: 35px;
+}
+
+/* Button Styling */
+.btn-home {
+    text-decoration: none;
+    background: #00d4ff;
+    color: #0b0f15;
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 212, 255, 0.2);
+}
+
+.btn-home:hover {
+    background: #ffffff;
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 212, 255, 0.4);
+}

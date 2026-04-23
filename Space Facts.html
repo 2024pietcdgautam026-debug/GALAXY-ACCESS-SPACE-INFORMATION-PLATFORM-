@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy Access | Space Facts</title>
+    <link rel="stylesheet" href="facts.css">
+</head>
+
+<body>
+<div class="main_header">
+    <div class="logo_wrapper">
+        <img src="images/logo2.png" width="100" alt="Space Research Logo" />
+    </div>
+
+    <div class="navigation_wrapper">
+        <a href="dashboard1.php"> Home </a>
+        <a href="About.html"> About </a>
+        <a href="p.php"> Programmes </a>
+        <a href="Exclusive Content.html"> Exclusive Content </a>
+        <a href="Space Facts.html"> Space Facts </a>
+
+        <!-- USER -->
+        <a href="#" style="color:#00bfff;">👤 <?php echo $user['name']; ?></a>
+
+        <!-- LOGOUT -->
+        <a href="logout.php">Logout</a>
+    </div>
+</div>
+<div class="facts-container">
+
+    <h1 class="heading">Amazing Space Facts</h1>
+    <p class="sub-text">Discover mind-blowing facts about our universe. Click any fact to read the full article.</p>
+
+    <div class="facts-wrapper">
+
+        <a href="fact1.html" class="fact-card">
+            <h2>The Sun Contains 99.86% of Solar System Mass</h2>
+            <p class="read-more">Read Article →</p>
+        </a>
+
+        <a href="fact2.html" class="fact-card">
+            <h2>One Day on Venus is Longer Than a Year</h2>
+            <p class="read-more">Read Article →</p>
+        </a>
+
+        <a href="fact3.html" class="fact-card">
+            <h2>Neutron Stars Are So Dense a Sugar Cube Weighs a Billion Tons</h2>
+            <p class="read-more">Read Article →</p>
+        </a>
+
+    </div>
+
+</div>
+
+</body>
+</html>
